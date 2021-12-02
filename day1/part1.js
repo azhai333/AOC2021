@@ -8,4 +8,4 @@ for (var i=1; i<input.length; i++) {
         count++
     }
 }
-console.log(test.length)
+console.log(count)
