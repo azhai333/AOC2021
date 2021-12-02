@@ -12,7 +12,7 @@ fileCount = fs.readdirSync(dir, (err, files) => {
     return fileCount
   });
 
-var fileTotal = fileCount.length - 1
+var fileTotal = fileCount.length - 3
 
 dir = dir + "day" + fileTotal
 console.log(dir)
