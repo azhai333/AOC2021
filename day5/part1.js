@@ -10,7 +10,6 @@ for (i=0; i<input.length; i++) {
             x1 = _.range(Math.min(input[i][0][0], input[i][1][0]), Math.max(input[i][0][0], input[i][1][0]) + 1)
             y1 = _.range(Math.min(input[i][0][1], input[i][1][1]), Math.max(input[i][0][1], input[i][1][1]) + 1)
             if (input[j][0][0] == input[j][1][0] || input[j][0][1] == input[j][1][1]) {
-
                 x2 = _.range(Math.min(input[j][0][0], input[j][1][0]), Math.max(input[j][0][0], input[j][1][0]) + 1)
                 y2 = _.range(Math.min(input[j][0][1], input[j][1][1]), Math.max(input[j][0][1], input[j][1][1]) + 1)
 
