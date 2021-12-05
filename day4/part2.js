@@ -105,3 +105,7 @@ function arrayEquals(a, b) {
       a.every((val, index) => val === b[index])
     );
   }
+
+  test = true && false
+
+  console.log(test)

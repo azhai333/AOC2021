@@ -47,7 +47,7 @@ request({
     url: 'https://adventofcode.com/2021/day/' + fileTotal + '/input',
     method: "GET",
     headers: {
-        "cookie": ""
+        "cookie": "_ga=GA1.2.1351462334.1636467586; _gid=GA1.2.432287557.1638291968; session=53616c7465645f5f694f089cd494836c8a283c9e5a0e6cf2dc35c17d3924aedd642ca048349cab3aa4e49768805389c7"
     }
     },
     (error, response, body)=>{

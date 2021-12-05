@@ -52,7 +52,6 @@ for (var i = 0; i < bingo.length; i++) {
                     }
                 }
                 score = score * bingo[i]
-                exit = true
                 break loop
             }
         }
@@ -66,6 +65,7 @@ for (var i = 0; i < bingo.length; i++) {
                 }
             }
             if (arrayEquals(squareColumn[j][k], goal)) {
+                console.log(squareColumn[j])
                 for (var l = 0; l < squareColumn[j].length; l++) {
                     for (var m = 0; m < squareColumn[j][l].length; m++) {
                         if (squareColumn[j][l][m] != -1) {
@@ -74,7 +74,6 @@ for (var i = 0; i < bingo.length; i++) {
                     }
                 }
                 score = score * bingo[i]
-                exit = true
                 break loop
             }
         }
