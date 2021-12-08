@@ -13,7 +13,7 @@ var fishStates = {
 }
 
 fs.readFileSync('./input.txt', {encoding: 'utf8'}).split(',').map(arr => fishStates[arr]++)
-var newFish = false
+var newFish = 0
 for (var i=0; i<256; i++) {
     for (const fish in fishStates) {
         if (fish == 0 && fishStates[fish] > 0) {
