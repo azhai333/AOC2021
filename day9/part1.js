@@ -12,8 +12,8 @@ input.push(input[0])
 input[input.length-1] = input[input.length-1].map(val => {return val = 9})
 
 var risk = 0
-for (var i=1; i<input.length; i++) {
-    for (var j=1; j<input[i].length; j++) {
+for (var i=1; i<input.length-1; i++) {
+    for (var j=1; j<input[i].length-1; j++) {
         if (input[i][j] < input[i][j+1] && input[i][j] < input[i][j-1] && input[i][j] < input[i+1][j] && input[i][j] < input[i-1][j]) {
            risk += input[i][j]+1
         }
