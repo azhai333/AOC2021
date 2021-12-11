@@ -47,7 +47,7 @@ request({
     url: 'https://adventofcode.com/2021/day/' + fileTotal + '/input',
     method: "GET",
     headers: {
-        "" //cookie goes here
+        "cookie": //cookie goes here
     }
     },
     (error, response, body)=>{
