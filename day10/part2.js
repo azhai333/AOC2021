@@ -41,4 +41,3 @@ for (var i=0; i<input.length; i++) {
 
 scores = scores.sort((a, b) => a - b)
 console.log(scores[((scores.length-1)/2)])
-
