@@ -30,8 +30,6 @@ class packetDecoder {
                 gIndex++
                 this.length = parseInt(getBit(gIndex, 15), 2)
                 this.length += gIndex
-
-                this.layer = gLayers
                 while (gIndex < this.length) {
                     gLayers++
                     if (subpackets[this.layer] == undefined) {
@@ -46,8 +44,6 @@ class packetDecoder {
                 gIndex++
                 this.length = parseInt(getBit(gIndex, 11), 2)
                 this.n = 0
-
-                this.layer = gLayers
                 while (this.n < this.length) {
                     gLayers++
                     if (subpackets[this.layer] == undefined) {
